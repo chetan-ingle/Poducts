@@ -2,7 +2,7 @@ import { Box  } from "@chakra-ui/react";
 import { Routes, Route } from "react-router-dom";
 import CreatePages from "./pages/CreatePages";
 import HomePage from "./pages/HomePage";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import { useColorModeValue } from "@chakra-ui/react";
 import { useProductStore } from "./store/product";
 
